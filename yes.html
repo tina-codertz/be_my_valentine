@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forever Starts Now ❤️</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="celebration-body">
+
+  <!-- Background Glow Particles -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Floating Hearts -->
+  <div class="hearts"></div>
+
+  <!-- Center Celebration Card -->
+  <div class="celebration-card">
+    <div id="bigHeart">❤️</div>
+    <h1 id="celebrationText"></h1>
+    <p id="rotatingQuote"></p>
+  </div>
+
+  <!-- Music Player - VISIBLE with local file -->
+  <div class="music-player celebration-music">
+    <button id="music-toggle" class="music-btn">
+      <span id="music-icon">🔇</span>
+      <span id="music-text">Play Music</span>
+    </button>
+    <audio id="bgMusic" loop>
+      <source src="./assets/music/romantic.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <script src="js/yes-script.js"></script>
+</body>
+</html>

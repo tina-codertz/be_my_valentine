@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Be My Valentine? 🐰💕</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Name Section -->
+    <div id="name-section" class="card">
+      <h1>Hi handsome</h1>
+      <p>Can I ask you something special?</p>
+      <input type="text" id="nameInput" placeholder="Your name please 🐰" />
+      <button id="continueBtn" class="btn-primary">Continue 💕</button>
+    </div>
+
+    <!-- Question Section -->
+    <div id="question-section" class="card hidden">
+      <div class="bunny-area">
+        <img id="bunny-gif" src="https://media.tenor.com/gU-1oF7V9u4AAAAi/bunny-strawberry.gif" alt="cute bunny">
+      </div>
+      <h1 id="question-text"></h1>
+      <div class="button-group">
+        <button id="yes-btn" class="btn-yes">Yes!! 🐰❤️</button>
+        <button id="no-btn" class="btn-no">No... 💔</button>
+      </div>
+    </div>
+
+    <div id="tease-popup" class="toast">...</div>
+  </div>
+
+  <!-- Music -->
+  <audio id="bg-music" loop>
+    <source src="./assets/music//romantic.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
