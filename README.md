@@ -1,4 +1,4 @@
-# Be My Valentine 💖
+# feb-day 💖
 
 A dark romantic interactive webpage to ask someone to be your Valentine!  
 
